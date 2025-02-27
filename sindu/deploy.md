@@ -65,6 +65,7 @@ We'll create Terraform modules for:
 •  Load Balancer – To distribute traffic
 •  Cloud Functions – For health checks and failover
 •  Monitoring & Alerting – To trigger alerts and automate failover
+
 ~~~bash
 terraform-gcp-failover/
 │── modules/
@@ -92,4 +93,4 @@ terraform-gcp-failover/
 │── variables.tf
 │── outputs.tf
 │── provider.tf
-```
+
