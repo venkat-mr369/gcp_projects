@@ -60,14 +60,12 @@ We'll create Terraform modules for:
 •	Pub/Sub Topic for Failover
 •	Monitoring & Alert Policy
 •	Load Balancer (L7 Global Load Balancer)
-
- 
-
 •  Cloud SQL (Primary & Read Replica) – MySQL databases for failover
 •  Cloud Run – To host the application
 •  Load Balancer – To distribute traffic
 •  Cloud Functions – For health checks and failover
 •  Monitoring & Alerting – To trigger alerts and automate failover
+~~~bash
 terraform-gcp-failover/
 │── modules/
 │   ├── cloud_sql/
@@ -94,3 +92,4 @@ terraform-gcp-failover/
 │── variables.tf
 │── outputs.tf
 │── provider.tf
+```
