@@ -22,7 +22,9 @@ Terraform Modules Needed (Based on Image Analysis)
 •	Publishes alerts to a Pub/Sub topic
 💾 Terraform Code Structure
 We'll structure the Terraform project as follows:
-***For Example***
+============
+For Example
+=============
 terraform/
 │── modules/
 │   ├── load_balancer/
