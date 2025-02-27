@@ -20,6 +20,8 @@ Terraform Modules Needed (Based on Image Analysis)
 •	Publishes alerts to a Pub/Sub topic
 💾 Terraform Code Structure
 We'll structure the Terraform project as follows:
+
+```bash
 terraform/
 │── modules/
 │   ├── load_balancer/
@@ -33,6 +35,8 @@ terraform/
 │── outputs.tf
 │── terraform.tfvars
 │── providers.tf
+````
+
 =======Based on the Requiement, we need Terraform modules to handle:
 1.	Automated Failover Workflow (Marked as 1 in the image)
 o	Triggering an alert policy
