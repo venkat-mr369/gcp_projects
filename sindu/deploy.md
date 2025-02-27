@@ -1,4 +1,4 @@
-***I can analyze its content and structure. Based on your description, it looks like you need Terraform modules for automating the setup of Cloud Run, Cloud SQL, Load Balancer, Health Checks, Failover, Monitoring, and Pub/Sub as per the workflow in the image**
+**I can analyze its content and structure. Based on your description, it looks like you need Terraform modules for automating the setup of Cloud Run, Cloud SQL, Load Balancer, Health Checks, Failover, Monitoring, and Pub/Sub as per the workflow in the image**
 
 ```bash
 Terraform Modules Needed (Based on Image Analysis)
@@ -22,9 +22,7 @@ Terraform Modules Needed (Based on Image Analysis)
 •	Publishes alerts to a Pub/Sub topic
 💾 Terraform Code Structure
 We'll structure the Terraform project as follows:
-~~~
-
-```bash
+***For Example***
 terraform/
 │── modules/
 │   ├── load_balancer/
