@@ -1,4 +1,5 @@
 ```bash
+
 terraform-gcp-failover/
 │── modules/
 │   ├── cloud_sql/
@@ -145,4 +146,5 @@ resource "google_monitoring_alert_policy" "default" {
     }
   }
 }
+
 ```
